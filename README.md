@@ -7,7 +7,7 @@ This package includes both flt_to_geotiff and geotiff_to_flt codes for conversio
 between .flt (raw list of nrow*ncol 32 bit floating point numbers) and .tif data
 files representing a single variable across a grid that is nrows by ncols in size.
 
-The package utilizes gdal libraries, qhich need to be available at the time of
+The package utilizes gdal libraries, which need to be available at the time of
 compilation. 
 
 It is assumed that the .flt data file stores data in column-major order, starting
