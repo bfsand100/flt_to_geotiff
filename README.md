@@ -37,6 +37,7 @@ Assuming the gdal library is available in the operating directory, compilation c
 be as simple as
 
 gcc -o flt_to_geotiff flt_to_geotff.c
+
 gcc -o geotiff_to_flt getiff_to_flt
 
 #Usage
