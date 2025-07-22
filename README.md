@@ -19,12 +19,12 @@ total of nrows.
 The .flt file must be paired with an ascii *.hdr file that contains information similar
 this:
 
- ncols        3000
- nrows        5000
- xllcorner   396994  
- yllcorner   3779994   
- cellsize   2  
- nodata_value       -9999
+ncols        3000
+nrows        5000
+xllcorner   396994
+yllcorner   3779994
+cellsize   2
+nodata_value       -9999
 
 The code does not retain information about the coordinate system or projection.
 
