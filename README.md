@@ -14,7 +14,8 @@ It is assumed that the .flt data file stores data in column-major order, startin
 in the upper left hand corner. This means that in reading data, the code will 
 assume that the very first 32 bits of data represent the number in the upper left
 corner, the second 32 bits represents the number underneath it, and after reading a
-total of nrows.
+total of nrows 32 bit numbers, the next number read will be located in the top of the
+second column.
 
 The .flt file must be paired with an ascii *.hdr file that contains information similar
 this:
