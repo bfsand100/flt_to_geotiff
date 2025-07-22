@@ -42,11 +42,11 @@ gcc -o geotiff_to_flt getiff_to_flt
 
 #Usage
 
-To create an .flt, there are two input files and one output file
+To create an .tif, there are two input files and one output file
 
 ./flt_to_geotiff <fname>.flt <fname>.hdr <fname>.tif
 
-To create an .tif, there is one input files and two output files
+To create an .flt, there is one input files and two output files
 
 ./geotiff_to_flt <fname>.tif <fname>.flt <fname>.hdr
 
